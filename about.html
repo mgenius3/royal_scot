@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Royal Scot</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+
+    <!-- =======================================================
+  * Template Name: Royal Scot
+  * Template URL: https://bootstrapmade.com/Royal Scot-bootstrap-corporate-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+
+    <style>
+      .hero-section {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+          url(/assets/img/working-3.jpg) no-repeat center center/cover;
+        color: #fff;
+        padding: 100px 0;
+        text-align: center;
+      }
+      .hero-section h1 {
+        font-size: 3.5rem;
+        font-weight: bold;
+      }
+      .section-title {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 30px;
+        /* color: #2c3e50; */
+      }
+      .service-icon {
+        font-size: 2.5rem;
+        color: #3498db;
+        margin-bottom: 20px;
+      }
+      .card {
+        border: none;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+      }
+      .card:hover {
+        transform: translateY(-10px);
+      }
+      .card-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #2c3e50;
+      }
+      .card-text {
+        color: #666;
+      }
+      .why-choose-us .icon {
+        /* font-size: 2rem;
+        color: #3498db;
+        margin-bottom: 15px; */
+      }
+
+      .icon {
+        font-size: 40px;
+        color: var(--accent-color);
+        margin-bottom: 10px;
+      }
+
+      .why-choose-us h4 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #2c3e50;
+      }
+      .why-choose-us p {
+        color: #666;
+      }
+      ul {
+        /* text-align: start; */
+        list-style: none;
+        /* text-align: justify; */
+      }
+      ul i {
+        font-size: 20px;
+        margin-right: 8px;
+        color: var(--accent-color);
+      }
+      ul li {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 10px;
+        font-weight: 300;
+      }
+      ul span {
+        text-align: start;
+      }
+    </style>
+  </head>
+
+  <body class="index-page">
+    <header id="header" class="header d-flex align-items-center sticky-top">
+      <div
+        class="container-fluid container-xl position-relative d-flex align-items-center"
+      >
+        <a href="index.html" class="logo d-flex align-items-center me-auto">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <img src="assets/img/royal_scot_logo.jpeg" alt="">
+          <!-- <h1 class="sitename">Royal Scot</h1> -->
+          <!-- <span></span> -->
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li>
+              <a href="index.html#hero" class="active">Home<br /></a>
+            </li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#portfolio">Portfolio</a></li>
+            <li class="dropdown">
+              <a href="index.html#services"
+                ><span>Services</span>
+                <i class="bi bi-chevron-down toggle-dropdown"></i
+              ></a>
+              <ul>
+                <li><a href="bg_services.html">⁠Bank Guarantees (BG)</a></li>
+                <li><a href="sblc_services.html">⁠Standby Letters of Credit (SBLC)</a></li>
+                <li><a href="monetization_services.html">⁠Monetization Services</a></li>
+                <li><a href="financial_services.html">⁠Custom Financial Solutions</a></li>
+                <li><a href="advisory_services.html">⁠Risk Management & Advisory</a></li>
+                <li><a href="seamless_services.html">⁠Seamless Execution</a></li>
+                <!-- <li class="dropdown">
+                  <a href="#"
+                    ><span>Deep Dropdown</span>
+                    <i class="bi bi-chevron-down toggle-dropdown"></i
+                  ></a>
+                  <ul>
+                    <li><a href="#">Deep Dropdown 1</a></li>
+                    <li><a href="#">Deep Dropdown 2</a></li>
+                    <li><a href="#">Deep Dropdown 3</a></li>
+                    <li><a href="#">Deep Dropdown 4</a></li>
+                    <li><a href="#">Deep Dropdown 5</a></li>
+                  </ul>
+                </li> -->
+               
+              </ul>
+            </li>
+            
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+        <a class="btn-getstarted" href="index.html#contact">Contact Us</a>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="container">
+        <h1 class="text-white">About Us</h1>
+        <p class="lead">
+          ROYAL SCOT LEASING LIMITED - Your Trusted Financial Partner
+        </p>
+      </div>
+    </section>
+
+    <!-- Company Overview Section -->
+    <section class="container my-5">
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <h2 class="section-title">Company Overview</h2>
+          <p class="lead">
+            ROYAL SCOT LEASING LIMITED is a premier financial services provider
+            based in the United Kingdom, specializing in the monetization of
+            bank guarantees and Standby Letters of Credit (SBLC). Established in
+            1982, our company has built a strong reputation for delivering
+            secure, efficient, and innovative financial solutions to clients
+            worldwide.
+          </p>
+          <p>
+            With decades of experience in the industry, we have earned the trust
+            of businesses, investors, and financial institutions by providing
+            reliable financial instruments to unlock liquidity and drive growth.
+            We pride ourselves on our ability to facilitate seamless
+            monetization processes, offering businesses access to capital while
+            mitigating risk.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Services Section -->
+    <section class="bg-light py-5">
+      <div class="container">
+        <h2 class="section-title text-center">Our Services</h2>
+        <div class="row g-4">
+          <!-- Bank Guarantee Monetization -->
+          <div class="col-md-4">
+            <div class="card h-100 text-center p-4">
+              <i class="bi bi-bank service-icon"></i>
+              <h3 class="card-title">Bank Guarantee Monetization</h3>
+              <p class="card-text">
+                We provide a secure platform for monetizing bank guarantees,
+                enabling businesses to unlock liquidity and gain access to
+                working capital without the need for additional borrowing.
+              </p>
+            </div>
+          </div>
+          <!-- SBLC Monetization -->
+          <div class="col-md-4">
+            <div class="card h-100 text-center p-4">
+              <i class="bi bi-file-earmark-text service-icon"></i>
+              <h3 class="card-title">SBLC Monetization</h3>
+              <p class="card-text">
+                We facilitate the conversion of Standby Letters of Credit into
+                immediate funds, allowing businesses to capitalize on their
+                assets to finance various business operations.
+              </p>
+            </div>
+          </div>
+          <!-- Customized Financial Solutions -->
+          <div class="col-md-4">
+            <div class="card h-100 text-center p-4">
+              <i class="bi bi-gear service-icon"></i>
+              <h3 class="card-title">Customized Financial Solutions</h3>
+              <p class="card-text">
+                We offer personalized solutions to meet the specific needs of
+                our clients, whether it be for investment projects, trade
+                finance, or securing project funding.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="container my-5 why-choose-us">
+      <h2 class="section-title text-center">Why Choose Us?</h2>
+      <div class="row g-4">
+        <!-- Expertise -->
+        <div class="col-md-3 text-center">
+          <i class="bi bi-lightbulb icon"></i>
+          <h4>Expertise</h4>
+          <p>
+            With over 40 years in the financial services industry, we possess a
+            wealth of knowledge and experience.
+          </p>
+        </div>
+        <!-- Trust and Reliability -->
+        <div class="col-md-3 text-center">
+          <i class="bi bi-shield-check icon"></i>
+          <h4>Trust and Reliability</h4>
+          <p>
+            We have built a strong reputation for trustworthiness and
+            reliability.
+          </p>
+        </div>
+        <!-- Global Reach -->
+        <div class="col-md-3 text-center">
+          <i class="bi bi-globe icon"></i>
+          <h4>Global Reach</h4>
+          <p>
+            Our services extend to clients across the globe, providing
+            international solutions.
+          </p>
+        </div>
+        <!-- Customer-Centric Approach -->
+        <div class="col-md-3 text-center">
+          <i class="bi bi-people icon"></i>
+          <h4>Customer-Centric Approach</h4>
+          <p>
+            We put our clients at the heart of everything we do, ensuring
+            tailored solutions.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mission and Vision Section -->
+    <section class="bg-light py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-title">Our Mission and Vision</h2>
+            <p class="lead">
+              Our mission is to provide innovative and secure financial
+              solutions by monetizing bank guarantees and SBLCs, offering
+              clients unparalleled access to liquidity and capital. Through our
+              expertise and dedication to excellence, we aim to empower
+              businesses and investors to achieve their financial goals while
+              maintaining the highest level of trust and security.
+            </p>
+            <p class="lead">
+              We aspire to be the global leader in our field, setting the
+              standard for financial services in bank guarantee and SBLC
+              monetization, and continuing to support businesses worldwide in
+              their pursuit of growth and financial success.
+            </p>
+
+            <h2>Our Vision</h2>
+
+            <p class="lead">
+              To be the global leader in bank guarantee and SBLC monetization,
+              setting a new benchmark for financial innovation, trust, and
+              reliability. We strive to empower businesses and individuals alike
+              by unlocking new opportunities, fostering growth, and ensuring
+              financial security across borders.
+            </p>
+            <h2>Our Mission</h2>
+            <p class="lead">
+              We are committed to providing unmatched financial services through
+              the strategic monetization of bank guarantees and Standby Letters
+              of Credit (SBLC), enabling our clients to achieve their financial
+              goals with ease and confidence. By leveraging expertise, advanced
+              solutions, and customer-centric principles, we ensure the highest
+              level of satisfaction and security for our stakeholders.
+            </p>
+
+            <h2>Our Core Values</h2>
+            <ul>
+              <li>
+                <i class="bi bi-check-circle"></i>
+                <span
+                  >⁠Integrity & Transparency: We uphold the highest standards of
+                  honesty and openness in every interaction and
+                  transaction.</span
+                >
+              </li>
+              <li>
+                <i class="bi bi-check-circle"></i>
+                <span
+                  >⁠⁠Innovation: We embrace creativity and cutting-edge
+                  technology to deliver impactful financial solutions.
+                </span>
+              </li>
+              <li>
+                <i class="bi bi-check-circle"></i>
+                <span
+                  >⁠⁠Customer-Centricity: Understanding and meeting the diverse
+                  needs of our clients is at the core of our operations.</span
+                >
+              </li>
+              <li>
+                <i class="bi bi-check-circle"></i>
+                <span
+                  >⁠⁠Excellence: We continually strive for perfection in service
+                  delivery, professionalism, and results.</span
+                >
+              </li>
+              <li>
+                <i class="bi bi-check-circle"></i>
+                <span
+                  >⁠⁠Collaboration: Teamwork and synergy within our organization
+                  are essential to our continued success and growth.</span
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="footer dark-background">
+      <div class="container footer-top">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename">ROYAL SCOT LEASING LIMITED</span>
+            </a>
+            <div class="footer-contact pt-3">
+              <p>RBS Gogarburn, 175 glasgow ROAD, Edinburgh</p>
+              <p>EH12 1HQ, United Kingdom</p>
+              <p class="mt-3">
+                <strong>Phone:</strong> <span>+1 5589 55488 55</span>
+              </p>
+              <p><strong>Email:</strong> <span>info@royalscotleasing.com</span></p>
+            </div>
+            <div class="social-links d-flex mt-4">
+              <a href=""><i class="bi bi-twitter-x"></i></a>
+              <a href=""><i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><a href="bg_services.html">⁠Bank Guarantees (BG)</a></li>
+              <li><a href="sblc_services.html">⁠Standby Letters of Credit (SBLC)</a></li>
+              <li><a href="monetization_services.html">⁠Monetization Services</a></li>
+              <li><a href="financial_services.html">⁠Custom Financial Solutions</a></li>
+              <li><a href="advisory_services.html">⁠Risk Management & Advisory</a></li>
+              <li><a href="seamless_services.html">⁠Seamless Execution</a></li>
+
+            </ul>
+          </div>
+
+          <!-- <div class="col-lg-4 col-md-12 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>
+              Subscribe to our newsletter and receive the latest news about our
+              products and services!
+            </p>
+            <form
+              action="forms/newsletter.php"
+              method="post"
+              class="php-email-form"
+            >
+              <div class="newsletter-form">
+                <input type="email" name="email" /><input
+                  type="submit"
+                  value="Subscribe"
+                />
+              </div>
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">
+                Your subscription request has been sent. Thank you!
+              </div>
+            </form>
+          </div> -->
+        </div>
+      </div>
+
+      <div class="container copyright text-center mt-4">
+        <p>
+          © <span>Copyright 2025</span>
+          <strong class="px-1 sitename">Royal Scot</strong>
+          <span>All Rights Reserved</span>
+        </p>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you've purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+          <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
