@@ -15,7 +15,9 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -39,9 +41,7 @@
 <body class="service-details-page">
 
   <header id="header" class="header d-flex align-items-center sticky-top">
-    <div
-      class="container-fluid container-xl position-relative d-flex align-items-center"
-    >
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
       <a href="index.html" class="logo d-flex align-items-center me-auto">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <img src="assets/img/royal_scot_logo.jpeg" alt="">
@@ -54,16 +54,14 @@
           <li>
             <a href="index.html#hero" class="active">Home<br /></a>
           </li>
-          <li><a href="index.html#about">About</a></li>
+          <li><a href="about.html">About</a></li>
           <li><a href="index.html#portfolio">Portfolio</a></li>
           <li class="dropdown">
-            <a href="index.html#services"
-              ><span>Services</span>
-              <i class="bi bi-chevron-down toggle-dropdown"></i
-            ></a>
+            <a href="index.html#services"><span>Services</span>
+              <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="bg_services.html">⁠Bank Guarantees (BG)</a></li>
-              <li><a href="sblc_services.html">⁠Standby Letters of Credit (SBLC)</a></li>
+              <li><a href="sblc_services.html" class="dropactive">⁠Standby Letters of Credit (SBLC)</a></li>
               <li><a href="monetization_services.html">⁠Monetization Services</a></li>
               <li><a href="financial_services.html">⁠Custom Financial Solutions</a></li>
               <li><a href="advisory_services.html">⁠Risk Management & Advisory</a></li>
@@ -81,10 +79,10 @@
                   <li><a href="#">Deep Dropdown 5</a></li>
                 </ul>
               </li> -->
-             
+
             </ul>
           </li>
-          
+
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -96,7 +94,7 @@
   <main class="main">
 
     <!-- Page Title -->
-    <div class="page-title dark-background">
+    <!-- <div class="page-title dark-background">
       <div class="container">
         <nav class="breadcrumbs">
           <ol>
@@ -106,7 +104,8 @@
         </nav>
         <h1>Service Details</h1>
       </div>
-    </div><!-- End Page Title -->
+    </div> -->
+    <!-- End Page Title -->
 
     <!-- Service Details Section -->
     <section id="service-details" class="service-details section">
@@ -120,12 +119,18 @@
             <div class="service-box">
               <h4>Serices List</h4>
               <div class="services-list">
-                <a href="bg_services.html" ><i class="bi bi-arrow-right-circle"></i><span>⁠Bank Guarantees (BG)</span></a>
-                <a href="#" class="active"><i class="bi bi-arrow-right-circle"></i><span>⁠Standby Letters of Credit (SBLC)</span></a>
-                <a href="monetization_services.html"><i class="bi bi-arrow-right-circle"></i><span>⁠Monetization Services</span></a>
-                <a href="financial_services.html"><i class="bi bi-arrow-right-circle"></i><span>⁠Custom Financial Solutions</span></a>
-                <a href="advisory_services.html"><i class="bi bi-arrow-right-circle"></i><span>⁠Risk Management & Advisory</span></a>
-                <a href="seamless_services.html"><i class="bi bi-arrow-right-circle"></i><span>⁠Seamless Execution</span></a>
+                <a href="bg_services.html"><i class="bi bi-arrow-right-circle"></i><span>⁠Bank Guarantees
+                    (BG)</span></a>
+                <a href="#" class="active"><i class="bi bi-arrow-right-circle"></i><span>⁠Standby Letters of Credit
+                    (SBLC)</span></a>
+                <a href="monetization_services.html"><i class="bi bi-arrow-right-circle"></i><span>⁠Monetization
+                    Services</span></a>
+                <a href="financial_services.html"><i class="bi bi-arrow-right-circle"></i><span>⁠Custom Financial
+                    Solutions</span></a>
+                <a href="advisory_services.html"><i class="bi bi-arrow-right-circle"></i><span>⁠Risk Management &
+                    Advisory</span></a>
+                <a href="seamless_services.html"><i class="bi bi-arrow-right-circle"></i><span>⁠Seamless
+                    Execution</span></a>
               </div>
             </div><!-- End Services List -->
 
@@ -141,19 +146,24 @@
             <div class="help-box d-flex flex-column justify-content-center align-items-center">
               <i class="bi bi-headset help-icon"></i>
               <h4>Have a Question?</h4>
-              <p class="d-flex align-items-center mt-2 mb-0"><i class="bi bi-telephone me-2"></i> <span>+1 5589 55488 55</span></p>
-              <p class="d-flex align-items-center mt-1 mb-0"><i class="bi bi-envelope me-2"></i> <a href="mailto:info@royalscotleasing.com">info@royalscotleasing.com</a></p>
+              <p class="d-flex align-items-center mt-2 mb-0"><i class="bi bi-telephone me-2"></i> <span>+1 5589 55488
+                  55</span></p>
+              <p class="d-flex align-items-center mt-1 mb-0"><i class="bi bi-envelope me-2"></i> <a
+                  href="mailto:info@royalscotleasing.com">info@royalscotleasing.com</a></p>
             </div>
 
           </div>
 
           <div class="col-lg-8 ps-lg-5" data-aos="fade-up" data-aos-delay="200">
-            <img src="assets/img/services.jpg" alt="" class="img-fluid services-img">
-            <h3>Our Standby Letter of Credit (SBLC) service ensures financial security for international transactions, 
+            <img src="assets/img/sblc.JPG" alt="" class="img-fluid services-img">
+            <h3>Our Standby Letter of Credit (SBLC) service ensures financial security for international transactions
+              providing a reliable payment guarantee.
 
             </h3>
             <p>
-              providing a reliable payment guarantee. Issued through top-tier banks, our SBLC mitigates risk and builds trust between businesses worldwide. Whether you're negotiating large-scale deals or entering into cross-border agreements, an SBLC offers peace of mind by securing your transactions and ensuring payment is made in case of default by the buyer.
+              Issued through top-tier banks, our SBLC mitigates risk and builds trust between businesses worldwide.
+              Whether you're negotiating large-scale deals or entering into cross-border agreements, an SBLC offers
+              peace of mind by securing your transactions and ensuring payment is made in case of default by the buyer.
             </p>
 
 
@@ -161,45 +171,63 @@
               Key Features That Make Us Stand Out:
             </h4>
             <ul>
-              <li><i class="bi bi-check-circle"></i> <span>⁠Payment Guarantee: An SBLC ensures that the beneficiary will be paid if the applicant fails to perform according to the contract terms.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>⁠Contingent Payment Mechanism: Unlike a traditional Letter of Credit, which is used for immediate payment, an SBLC serves as a backup method of payment if the applicant defaults.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>⁠Risk Reduction: By involving a reputable bank, an SBLC minimizes the risk of non-payment, making it a valuable tool in global trade.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>⁠⁠Fast Turnaround: Quick issuance to keep your deals on track.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>⁠Global Acceptance: An SBLC is recognized and accepted by banks and financial institutions around the world, facilitating smoother and more secure international business transactions.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>⁠Payment Guarantee: An SBLC ensures that the beneficiary will
+                  be paid if the applicant fails to perform according to the contract terms.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>⁠Contingent Payment Mechanism: Unlike a traditional Letter of
+                  Credit, which is used for immediate payment, an SBLC serves as a backup method of payment if the
+                  applicant defaults.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>⁠Risk Reduction: By involving a reputable bank, an SBLC
+                  minimizes the risk of non-payment, making it a valuable tool in global trade.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>⁠⁠Fast Turnaround: Quick issuance to keep your deals on
+                  track.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>⁠Global Acceptance: An SBLC is recognized and accepted by
+                  banks and financial institutions around the world, facilitating smoother and more secure international
+                  business transactions.</span></li>
             </ul>
 
 
-            <h6>
+            <h4>
               When is a Standby Letter of Credit Used?
+              SBLCs are typically used in situations where payment security is needed, but the payment is not required
+              immediately. Common uses include:
+            </h4>
+            <ul>
 
-              SBLCs are typically used in situations where payment security is needed, but the payment is not required immediately. Common uses include:
-            </h6>
-              <ul>
+              <li><i class="bi bi-check-circle"></i> <span>⁠⁠International Trade: Securing payments for cross-border
+                  transactions, ensuring both buyers and sellers are protected.</span></li>
 
-               <li><i class="bi bi-check-circle"></i> <span>⁠  ⁠International Trade: Securing payments for cross-border transactions, ensuring both buyers and sellers are protected.</span></li>
-              
-               <li><i class="bi bi-check-circle"></i> <span>⁠  ⁠Construction Projects: Guaranteeing that contractors or suppliers will fulfill their obligations.</span></li>
-                
-               <li><i class="bi bi-check-circle"></i> <span>⁠   ⁠Loan Agreements: Providing a fallback payment source in case the borrower defaults on repayment.</span></li>
-               <li><i class="bi bi-check-circle"></i> <span>⁠  ⁠Leases and Rental Agreements: Ensuring that rental payments or obligations are met according to the lease terms.</span></li>
-              </ul>
-                
-              <h4>
-                Why Choose a Standby Letter of Credit?
+              <li><i class="bi bi-check-circle"></i> <span>⁠Construction Projects: Guaranteeing that contractors or
+                  suppliers will fulfill their obligations.</span></li>
 
-                Opting for a Bank Guarantee offers several advantages, including:
-              </h4>  
+              <li><i class="bi bi-check-circle"></i> <span>⁠⁠Loan Agreements: Providing a fallback payment source in
+                  case the borrower defaults on repayment.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>⁠⁠Leases and Rental Agreements: Ensuring that rental payments
+                  or obligations are met according to the lease terms.</span></li>
+            </ul>
 
-              <ul>
-               <li><i class="bi bi-check-circle"></i> <span>⁠  ⁠Reduced Risk: It lowers the risk of dealing with new or untrusted business partners by providing a safety net in case of non-performance.</span></li>
-               <li><i class="bi bi-check-circle"></i> <span>⁠  ⁠Trust Building: A Bank Guarantee can help build trust between parties in transactions that involve large sums of money or critical deliverables.</span></li>
-               <li><i class="bi bi-check-circle"></i> <span>⁠  ⁠Financial Security: It gives both parties the confidence that funds will be available if needed, ensuring smoother business operations.</span></li>
-               <li><i class="bi bi-check-circle"></i> <span>⁠  ⁠Enhanced Trust: It fosters trust between parties in transactions where there may be concerns about payment reliability.</span></li>
-               <li><i class="bi bi-check-circle"></i> <span>⁠   ⁠Reduced Risk: It protects against the risk of non-payment or contract default, which is particularly important in international dealings.</span></li>
-              </ul>
-            
+            <h4>
+              Why Choose a Standby Letter of Credit?
+              Opting for a Bank Guarantee offers several advantages, including:
+            </h4>
+
+            <ul>
+              <li><i class="bi bi-check-circle"></i> <span>⁠⁠Reduced Risk: It lowers the risk of dealing with new or
+                  untrusted business partners by providing a safety net in case of non-performance.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>⁠⁠Trust Building: A Bank Guarantee can help build trust
+                  between parties in transactions that involve large sums of money or critical deliverables.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>⁠⁠Financial Security: It gives both parties the confidence
+                  that funds will be available if needed, ensuring smoother business operations.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>⁠⁠Enhanced Trust: It fosters trust between parties in
+                  transactions where there may be concerns about payment reliability.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>⁠⁠Reduced Risk: It protects against the risk of non-payment
+                  or contract default, which is particularly important in international dealings.</span></li>
+            </ul>
+
             <p>
-              In conclusion, a Standby Letter of Credit (SBLC) is a powerful financial tool that provides an added layer of protection and guarantees payment for the beneficiary in case of default. By choosing an SBLC, businesses can mitigate risks, build trust, and ensure the successful execution of international transactions.
+              In conclusion, a Standby Letter of Credit (SBLC) is a powerful financial tool that provides an added layer
+              of protection and guarantees payment for the beneficiary in case of default. By choosing an SBLC,
+              businesses can mitigate risks, build trust, and ensure the successful execution of international
+              transactions.
 
             </p>
           </div>
@@ -288,7 +316,7 @@
     <div class="container copyright text-center mt-4">
       <p>
         © <span>Copyright 2025</span>
-        <strong class="px-1 sitename">Royal Scot</strong>
+        <strong class="px-1 sitename">Royal Scot Leasing Limited then incorporated in 1982</strong>
         <span>All Rights Reserved</span>
       </p>
       <div class="credits">
@@ -302,7 +330,8 @@
   </footer>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

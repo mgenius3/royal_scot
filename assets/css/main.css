@@ -39,6 +39,11 @@
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
+
+.dropactive{
+  color: var(--nav-dropdown-hover-color)!important;
+}
+
 .light-background {
   --background-color: #f9f9f9;
   --surface-color: #ffffff;
@@ -238,7 +243,7 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 56px;
+  max-height: 72px;
   margin-right: 8px;
 }
 
@@ -320,7 +325,7 @@ h6 {
     padding: 18px 15px;
     font-size: 16px;
     font-family: var(--nav-font);
-    font-weight: 400;
+    font-weight: 500;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -434,6 +439,8 @@ h6 {
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
   }
 
+  
+
   .navmenu a,
   .navmenu a:focus {
     color: var(--nav-dropdown-color);
@@ -468,6 +475,8 @@ h6 {
     background-color: var(--accent-color);
     color: var(--contrast-color);
   }
+
+ 
 
   .navmenu a:hover,
   .navmenu .active,
