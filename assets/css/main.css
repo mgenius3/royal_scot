@@ -349,7 +349,15 @@ h6 {
   .navmenu .active,
   .navmenu .active:focus {
     color: var(--nav-hover-color);
+   
+
   }
+.navmenu li:hover>a{
+  background-color: 
+  color-mix(in srgb, var(--accent-color), transparent 95%);
+  color: var(--nav-hover-color);
+
+}
 
   .navmenu .dropdown ul {
     margin: 0;
@@ -385,7 +393,11 @@ h6 {
   .navmenu .dropdown ul a:hover,
   .navmenu .dropdown ul .active:hover,
   .navmenu .dropdown ul li:hover>a {
-    color: var(--nav-dropdown-hover-color);
+    background-color: 
+color-mix(in srgb, var(--accent-color), transparent 95%);
+    color: var(--accent-color);
+
+    /* color: var(--nav-dropdown-hover-color); */
   }
 
   .navmenu .dropdown:hover>ul {
